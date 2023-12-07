@@ -1,5 +1,13 @@
 
-### pio debug
+## 개발환경
+ - platformio
+ - nvim and termdebug
+
+![image](https://github.com/donghee/pio-stm32f405rg-led-blink/assets/91220/a0134640-1c4b-49bd-a356-fb364c4d547b)
+
+#### 디버깅 명령
+
+**pio debug**
 
 platformio 에서 디버깅 하는방법. 그러나 pio 쉘에서 gdb에서Ctrl-C (SIGINT) 가 작동 안한다.
 
@@ -7,7 +15,7 @@ platformio 에서 디버깅 하는방법. 그러나 pio 쉘에서 gdb에서Ctrl-
 pio debug --interface=gdb -- -x .pioinit
 ```
 
-### gdb 이용하는 방법
+**gdb 이용하는 방법**
 
 JLinkGDB 서버
 
