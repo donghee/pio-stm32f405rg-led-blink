@@ -30,3 +30,6 @@ gdb로 서버 접속. .pioinit 읽어서 gdb 명령 실행
 ~/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gdb -x .pioinit
 ```
 
+### 하드웨어
+
+![image](https://github.com/donghee/pio-stm32f405rg-led-blink/assets/91220/9e148cca-7ad9-4e64-acdf-b7623a8eb88a)
