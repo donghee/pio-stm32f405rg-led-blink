@@ -5,6 +5,12 @@
 
 ![image](https://github.com/donghee/pio-stm32f405rg-led-blink/assets/91220/a0134640-1c4b-49bd-a356-fb364c4d547b)
 
+#### 빌드 명령
+
+```
+pio run -e genericSTM32F405RG --target upload
+```
+
 #### 디버깅 명령
 
 **pio debug**
@@ -41,3 +47,4 @@ gdb로 서버 접속. .pioinit 읽어서 gdb 명령 실행
 ### 하드웨어
 
 ![image](https://github.com/donghee/pio-stm32f405rg-led-blink/assets/91220/9e148cca-7ad9-4e64-acdf-b7623a8eb88a)
+
