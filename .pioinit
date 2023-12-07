@@ -1,0 +1,6 @@
+file .pio/build/genericSTM32F405RG/firmware.elf
+target remote localhost:2331
+monitor reset
+#monitor flash erase
+load
+break main
